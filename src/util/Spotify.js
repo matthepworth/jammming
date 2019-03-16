@@ -5,7 +5,7 @@ const clientId = 'e6fcab95d31c472aaa8b16a90ef7721f'
 // Step 81
 // const redirectURI = 'http://localhost:3000/'
 // Step 97
-const redirectURI = 'https://jammmingapp.surge.sh'
+const redirectURI = 'https://jammmingapp2.surge.sh'
 
 // Step 77
 let userAccessToken
