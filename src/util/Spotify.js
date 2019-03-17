@@ -39,11 +39,14 @@ const Spotify = {
 
     },
 
-	// Step 85
-    search(userSearchTerm) {
+        // Step 85
+	// Attempted userSearchTerm
+	//   Changed back to searchTerm,
+	//   referenced in SearchBar.js
+    search(searchTerm) {
         const userAccessToken = Spotify.getAccessToken();
 		// Step 86
-        const searchRequest = `${spotifyAPIURIBase}search?type=track&q=${userSearchTerm}`
+        const searchRequest = `${spotifyAPIURIBase}search?type=track&q=${searchTerm}`
         return fetch(searchRequest, {
             headers : {
                 Authorization : `Bearer ${userAccessToken}`
